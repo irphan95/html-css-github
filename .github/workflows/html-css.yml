@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name Create image
-      
+      uses: htmlcsstoimage/action@v1
       id: create_image
       with:
        hcti_user_id: ${{ secrets.HCTI_USER_ID }}
